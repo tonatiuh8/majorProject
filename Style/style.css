@@ -1,0 +1,47 @@
+body  {
+  width:90%;
+  margin:auto;
+}
+header{
+  border-bottom: 1px solid;
+}
+li  {
+  display:inline;
+  background-color: rgba(224, 190, 190, 1);
+}
+
+h1{
+  background-color: rgba(224, 190, 190, 1);
+  border: 1px solid;
+}
+
+div h1{
+  text-align: center;
+  border: 1px solid;
+  display: inline-block;
+  margin: 5% 25%;
+}
+
+.nav-web{
+  float:left;
+}
+
+.nav-social{
+  float:right;
+}
+.article{
+    width:60%;
+    float:right;
+}
+#time{
+  width: 30%;
+  /*padding-top: 15%;*/
+  border: 1px solid;
+  position :relative;
+  /*left: 20%;*/
+  float: left;
+
+}
+.article header{
+  border-bottom: none;
+}
