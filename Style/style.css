@@ -1,5 +1,5 @@
 body  {
-  width:90%;
+  width:80%;
   margin:auto;
 }
 header{
@@ -9,17 +9,24 @@ li  {
   display:inline;
   background-color: rgba(224, 190, 190, 1);
 }
+div h1{
+  display: inline-block;
+  text-align: center;
+  margin: 10% 20%;
+}
 
 h1{
   background-color: rgba(224, 190, 190, 1);
-  border: 1px solid;
+  font-family: "Taviraj", serif, Times;
+  font-size: 4em;
+}
+nav{
+
+  height: 0;
 }
 
-div h1{
-  text-align: center;
-  border: 1px solid;
-  display: inline-block;
-  margin: 5% 25%;
+.header-title{
+
 }
 
 .nav-web{
@@ -29,19 +36,23 @@ div h1{
 .nav-social{
   float:right;
 }
+
 .article{
-    width:60%;
+    width:50%;
     float:right;
 }
 #time{
   width: 30%;
-  /*padding-top: 15%;*/
-  border: 1px solid;
-  position :relative;
-  /*left: 20%;*/
   float: left;
-  margin-top: 10px;
+  margin-top: 1%;
+  text-align: right;
+
 }
 .article header{
   border-bottom: none;
+  margin-top: 1%;
+}
+.nav-web, .nav-social, #title{
+  font-family: "Raleway", Tahoma, Geneva, Serif;
+  font-size:  1.5em;
 }
