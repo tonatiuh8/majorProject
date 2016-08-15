@@ -2,39 +2,50 @@ body  {
   width:80%;
   margin:auto;
 }
+
 header{
+  border-top: 1px solid;
+  max-height: 20%;
   border-bottom: 1px solid;
 }
+
 li  {
   display:inline;
   background-color: rgba(224, 190, 190, 1);
-}
-div h1{
-  display: inline-block;
-  text-align: center;
-  margin: 10% 20%;
 }
 
 h1{
   background-color: rgba(224, 190, 190, 1);
   font-family: "Taviraj", serif, Times;
   font-size: 4em;
-}
-nav{
-
-  height: 0;
+  text-align: center;
+  display: block;
+  clear: both;
+  margin: 10% 0;
 }
 
 .header-title{
-
-}
+  /*border: 1px solid;*/
+  display: block;
+  }
 
 .nav-web{
   float:left;
+  text-align: left;
+  border: 1px solid;
 }
 
 .nav-social{
   float:right;
+  border: 1px solid;
+}
+
+ul {
+  /*border: 1px dashed red;*/
+  padding-left: 0;
+}
+li{
+  border: 3px solid green;
 }
 
 .article{
@@ -46,7 +57,6 @@ nav{
   float: left;
   margin-top: 1%;
   text-align: right;
-
 }
 .article header{
   border-bottom: none;
