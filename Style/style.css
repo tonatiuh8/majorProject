@@ -19,14 +19,31 @@ h1{
   font-family: "Taviraj", serif, Times;
   font-size: 4em;
   text-align: center;
-  display: block;
+  /*display: block;*/
   clear: both;
   margin: 10% 0;
 }
 
+ul {
+  /*border: 1px dashed red;*/
+  padding-left: 0;
+}
+li{
+  border: 3px solid green;
+}
+
+.nav-web, .nav-social{
+  font-family: "Raleway", Tahoma, geneva, Serif;
+  font-size:  1.5em;
+}
+
+.article main, .article h2,#time {
+  font-family: "Alegreya", sans-serif, serif, Arial;
+}
+
 .header-title{
   /*border: 1px solid;*/
-  display: block;
+  display: inline;
   }
 
 .nav-web{
@@ -40,29 +57,30 @@ h1{
   border: 1px solid;
 }
 
-ul {
-  /*border: 1px dashed red;*/
-  padding-left: 0;
-}
-li{
-  border: 3px solid green;
-}
-
 .article{
     width:50%;
     float:right;
 }
+
+.article header{
+  border-top: none;
+  margin-top: 1%;
+  font-size: 1.5em;
+}
+
+.article h2{
+  margin: 0;
+}
+
 #time{
   width: 30%;
   float: left;
   margin-top: 1%;
   text-align: right;
+  border: 1px solid;
+  font-size: 1.5em;
 }
-.article header{
-  border-bottom: none;
-  margin-top: 1%;
-}
-.nav-web, .nav-social, #title{
-  font-family: "Raleway", Tahoma, Geneva, Serif;
-  font-size:  1.5em;
+
+#time h2{
+  display: inline;
 }
