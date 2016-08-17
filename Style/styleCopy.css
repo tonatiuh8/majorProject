@@ -1,0 +1,132 @@
+body  {
+  width:80%;
+  margin:auto;
+}
+
+header{
+  border-top: 1px solid;
+  max-height: 20%;
+  border-bottom: 1px solid;
+}
+
+li  {
+  display:inline;
+  background-color: rgba(224, 190, 190, 1);
+}
+
+h1{
+  background-color: rgba(224, 190, 190, 1);
+  font-family: "Taviraj", serif, Times;
+  font-size: 4em;
+  text-align: center;
+  /*display: block;*/
+  clear: both;
+  margin: 10% 0;
+}
+
+ul {
+  /*border: 1px dashed red;*/
+  padding-left: 0;
+}
+li{
+  border: 3px solid green;
+}
+
+.nav-web, .nav-social{
+  font-family: "Raleway", Tahoma, geneva, Serif;
+  font-size:  1.5em;
+}
+
+.article main, .article h2,#time {
+  font-family: "Alegreya", sans-serif, serif, Arial;
+}
+
+.header-title{
+  /*border: 1px solid;*/
+  display: inline;
+  }
+
+.nav-web{
+  float:left;
+  text-align: left;
+  border: 1px solid;
+}
+
+.nav-social{
+  float:right;
+  border: 1px solid;
+}
+
+.article{
+    width:50%;
+    float:right;
+}
+ main header{
+   border: 2px dashed blue;
+   /*display: inline-block;*/
+   width:100%;
+ }
+ #title{
+   border: 1px solid grey;
+   width:70%;
+   float:right;
+   box-sizing: border-box;
+ }
+
+ #title h2 {
+   border: 1px dashed green;
+ }
+
+ #time{
+   border: 1px dotted red;
+   float:left;
+   width:30%;
+   text-align: right;
+   box-sizing: border-box;
+ }
+
+ #time h2{
+   border: 3px dashed green;
+ }
+
+ main
+
+ /*h2 {
+   display: inline-block;
+ }*/
+
+/*h2:nth-child(2){
+  border: 9px dashed green;
+  width:50%;
+  text-align: center;
+  /*margin:0;
+  padding:0;
+}*/
+/*
+.article header{
+  border-top: none;
+  margin-top: 1%;
+  font-size: 1.5em;
+  width:80%;
+}
+
+.article h2{
+  margin: 0;
+}
+
+#time{
+  width: 30%;
+  float: left;
+  margin-top: 1%;
+  text-align: right;
+  border: 1px solid red;
+  font-size: 1.5em;
+}
+
+#time h2{
+  display: inline;
+}
+
+main{
+
+}*/
