@@ -37,7 +37,7 @@ li{
   font-size:  1.5em;
 }
 
-.article main, .article h2,#time {
+.main-article , #time, #title {
   font-family: "Alegreya", sans-serif, serif, Arial;
 }
 
@@ -58,13 +58,16 @@ li{
 }
 
 .article{
-    width:50%;
+    width:100%;
     float:right;
+}
+
+.blogContent{
+  width:60%;
+  display: block;
 }
  main header{
    border: 2px dashed blue;
-   /*display: inline-block;*/
-   width:100%;
  }
  #title{
    border: 1px solid grey;
@@ -86,11 +89,13 @@ li{
  }
 
  #time h2{
-   border: 3px dashed green;
+   border: 1px dashed green;
  }
 
- main
-
+ .main-article{
+    width: 70%;
+    float: right;
+ }
  /*h2 {
    display: inline-block;
  }*/
