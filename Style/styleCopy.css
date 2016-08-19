@@ -1,6 +1,7 @@
 body  {
   width:80%;
   margin:auto;
+  height: auto;
 }
 
 header{
@@ -41,10 +42,7 @@ li{
   font-family: "Alegreya", sans-serif, serif, Arial;
 }
 
-.header-title{
-  /*border: 1px solid;*/
-  display: inline;
-  }
+/*Header CSS*/
 
 .nav-web{
   float:left;
@@ -57,18 +55,27 @@ li{
   border: 1px solid;
 }
 
+.header-title{
+  /*border: 1px solid;*/
+  display: inline;
+  }
+
+/*CSS Body*/
+
+.blogContent{
+  width:60%;
+  display: inline-block;
+  border: 2px solid red;
+  max-height: 60%;
+  position: relative;
+  margin:0 25%;
+}
+
 .article{
     width:100%;
     float:right;
 }
 
-.blogContent{
-  width:60%;
-  display: block;
-}
- main header{
-   border: 2px dashed blue;
- }
  #title{
    border: 1px solid grey;
    width:70%;
