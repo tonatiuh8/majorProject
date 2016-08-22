@@ -41,7 +41,9 @@ li{
 .main-article , #time, #title {
   font-family: "Alegreya", sans-serif, serif, Arial;
 }
-
+#time, #title {
+  font-size: 1.75em;
+}
 /*Header CSS*/
 
 .nav-web{
@@ -63,12 +65,12 @@ li{
 /*CSS Body*/
 
 .blogContent{
-  width:60%;
+  /*width:60%;*/
   display: inline-block;
   border: 2px solid red;
   max-height: 60%;
   position: relative;
-  margin:0 25%;
+  margin:0 10%;
 }
 
 .article{
@@ -91,7 +93,7 @@ li{
    border: 1px dotted red;
    float:left;
    width:30%;
-   text-align: right;
+   text-align: left;
    box-sizing: border-box;
  }
 
@@ -103,6 +105,26 @@ li{
     width: 70%;
     float: right;
  }
+
+.footerButton{
+  display:inline;
+  border: 1px dashed blue;
+  margin: 0 25%;
+  box-sizing: border-box;
+}
+
+.footer{
+  border: 1px solid;
+
+}
+
+button{
+  /*margin: 0 25%;*/
+  display: inline-block;
+
+}
+a{
+}
  /*h2 {
    display: inline-block;
  }*/
