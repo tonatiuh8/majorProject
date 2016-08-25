@@ -1,46 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Prefer Tona</title>
-<link href="Style/style.css" rel="stylesheet" text="text/css">
-<!--Googles Font-->
-<link href="https://fonts.googleapis.com/css?family=Alegreya|Raleway|Taviraj" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="nav-web">
-        <ul>
-          <li>Blog</li>
-          <li>Resume</li>
-          <li>Projects</li>
-          <li>Misc</li>
-        </ul>
-      </div>
-      <div class="nav-social">
-        <ul>
-          <li>Facebook</li>
-          <li>LinkedIn</li>
-          <li>Github</li>
-        </ul>
-      </div>
-    </nav>
-    <div class="header-title"><h1>TonaBoy Blog</h1></div>
-  </header>
-  <main>
-    <div id="time"><h2>01/23/1234</h2></div>
-    <div class="article">
-      <header><h2>Title of Blog post</h2></header>
-      <main>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel nulla sed dolor sodales accumsan nec et odio. Integer consequat ligula quis scelerisque elementum. Pellentesque posuere venenatis turpis, dignissim suscipit risus luctus non. Integer pellentesque felis nisi, sed tincidunt mauris scelerisque ac. Nulla viverra nunc eget mi maximus, in laoreet tortor consequat. Sed dictum, nibh eget fermentum rutrum, nisl mauris viverra metus, eu consequat risus eros vel nisi. Etiam in tincidunt justo. Pellentesque sit amet nibh vel purus aliquet pellentesque et sed neque. Suspendisse ut lectus accumsan, molestie magna vel, rutrum augue. Nullam auctor sapien in aliquet commodo. Sed leo ligula, fringilla sed rhoncus sit amet, faucibus ullamcorper velit. Aliquam ligula ligula, maximus eget vehicula in, lobortis non lectus. Quisque dapibus, augue nec convallis pretium, metus urna eleifend orci, ultricies tristique dolor est congue lectus. Aenean non laoreet massa.</p>
-      <p>Praesent ullamcorper urna quis justo tempus pellentesque. In vitae tristique metus. Vestibulum pharetra ipsum justo, id fringilla mi imperdiet vitae. Proin justo ante, lacinia quis convallis eu, laoreet vel augue. Donec tincidunt tincidunt justo sit amet tristique. Sed blandit feugiat viverra. Phasellus lectus nisl, ultrices iaculis tellus cursus, fringilla tristique massa.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta risus est. Duis sed risus non dui tempus tincidunt. Duis ut finibus ex. Vestibulum rhoncus nibh at eros feugiat malesuada. Aenean vitae enim euismod, pulvinar risus eget, accumsan nibh. Phasellus lacus augue, viverra eget risus sit amet, luctus suscipit augue. Donec at dictum nisi, vitae sollicitudin lorem.</p>
-      <p>Duis pellentesque odio in tellus vestibulum, id cursus lacus faucibus. Aliquam erat volutpat. Sed imperdiet lacus vel sapien pharetra tincidunt. Integer ornare varius sodales. Nullam ullamcorper arcu sit amet nisl rhoncus, sit amet interdum massa ultrices. Nulla efficitur leo sit amet ante vestibulum posuere. Vestibulum eget bibendum justo, ut fermentum felis. Quisque urna velit, luctus et dolor et, porttitor sagittis leo. Nulla at commodo nunc. Vivamus id ullamcorper neque, a dignissim lorem. Quisque magna nunc, egestas vel aliquam eu, dapibus sit amet metus. Curabitur porttitor ex massa, vitae imperdiet massa varius eleifend. Aliquam id eros et augue commodo aliquam.</p>
-      <p>Morbi pharetra ut mi quis ullamcorper. In hac habitasse platea dictumst. Donec aliquam nisl ut orci bibendum condimentum. Cras commodo porttitor risus. Pellentesque et turpis a urna consectetur gravida. Duis porta, sem sed consectetur tristique, metus arcu iaculis elit, nec ornare sapien massa et metus. Praesent elementum sodales condimentum. Ut lectus erat, eleifend sit amet tortor non, tincidunt porttitor tellus. Pellentesque at lobortis est, at suscipit est. Nulla feugiat mi a augue sagittis congue. Quisque aliquet tempus viverra. Ut tincidunt, ex quis maximus gravida, risus sapien convallis tortor, vitae venenatis dolor tortor eget augue. Cras porttitor velit ante, id malesuada ipsum interdum ac. Proin varius luctus sagittis.</p>
-    </main>
-    </div>
-  </main>
-<footer></footer>
-</body>
-</html>
+---
+layout: page
+title: TonaBoy Blog
+subtitle: This is the blog of the one and only Tonatiuh Gutierrez BBBBOOOOYYYYYYYY!!!!!
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
